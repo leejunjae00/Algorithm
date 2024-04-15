@@ -11,8 +11,8 @@ public class Q15649 {
 
     Scanner in = new Scanner(System.in);
 
-    int N = in.nextInt(); // N까지의 수
-    int M = in.nextInt(); // M은 수열의 길이
+    int N = in.nextInt(); // N 까지의 수
+    int M = in.nextInt(); // M 은 수열의 길이
 
     arr = new int[M]; // 탐색 과정에서 값을 담을 배열
     visit = new boolean[N]; //방문한 노드인지 확인하기 위해 생성
